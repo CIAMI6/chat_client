@@ -22,6 +22,21 @@
     <Filter Include="登陆窗口">
       <UniqueIdentifier>{92fce941-ac4a-4d35-aa73-ce7d2e70dca5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MyTab">
+      <UniqueIdentifier>{8336896a-c177-4eff-9549-258db08508e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyList">
+      <UniqueIdentifier>{457f05df-8166-4992-946a-fae85796c0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="好友">
+      <UniqueIdentifier>{1f9c7e0f-eab7-434c-b997-b44c3ca56927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主窗口">
+      <UniqueIdentifier>{8ae54617-649e-46ce-829e-92bcbe91a37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="群窗口">
+      <UniqueIdentifier>{3d0ab1ac-a2be-499b-a742-37dc66be134b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chat_client.h">
@@ -39,21 +54,6 @@
     <ClInclude Include="data.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CMyListCtrl.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CMyTabCtrl.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CMainDia.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CFriendDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CChatRoom.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="CMySocket.h">
       <Filter>网络</Filter>
     </ClInclude>
@@ -63,27 +63,27 @@
     <ClInclude Include="chat_clientDlg.h">
       <Filter>登陆窗口</Filter>
     </ClInclude>
+    <ClInclude Include="CMyTabCtrl.h">
+      <Filter>MyTab</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyListCtrl.h">
+      <Filter>MyList</Filter>
+    </ClInclude>
+    <ClInclude Include="CFriendDlg.h">
+      <Filter>好友</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainDia.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CChatRoom.h">
+      <Filter>群窗口</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chat_client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CMyListCtrl.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CMyTabCtrl.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CMainDia.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CFriendDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CChatRoom.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CMySocket.cpp">
@@ -94,6 +94,21 @@
     </ClCompile>
     <ClCompile Include="chat_clientDlg.cpp">
       <Filter>登陆窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTabCtrl.cpp">
+      <Filter>MyTab</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyListCtrl.cpp">
+      <Filter>MyList</Filter>
+    </ClCompile>
+    <ClCompile Include="CFriendDlg.cpp">
+      <Filter>好友</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainDia.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CChatRoom.cpp">
+      <Filter>群窗口</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

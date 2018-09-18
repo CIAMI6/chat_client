@@ -78,5 +78,6 @@ enum UserMessage
 {
 	WM_PrivateMessage = WM_USER + 1,
 	WM_LoginMessage,
-	WM_RegisterMessage
+	WM_RegisterMessage,
+	WM_UpdateFriend
 };

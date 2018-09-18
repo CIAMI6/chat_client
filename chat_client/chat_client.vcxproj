@@ -191,6 +191,7 @@
     <ClInclude Include="CMyListCtrl.h" />
     <ClInclude Include="CMySocket.h" />
     <ClInclude Include="CMyTabCtrl.h" />
+    <ClInclude Include="CPrivateDlg.h" />
     <ClInclude Include="CRegDla.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="Resource.h" />
@@ -206,6 +207,7 @@
     <ClCompile Include="CMyListCtrl.cpp" />
     <ClCompile Include="CMySocket.cpp" />
     <ClCompile Include="CMyTabCtrl.cpp" />
+    <ClCompile Include="CPrivateDlg.cpp" />
     <ClCompile Include="CRegDla.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

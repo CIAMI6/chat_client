@@ -37,6 +37,9 @@
     <Filter Include="群窗口">
       <UniqueIdentifier>{3d0ab1ac-a2be-499b-a742-37dc66be134b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="私聊窗口">
+      <UniqueIdentifier>{a50ceef8-282b-4721-8dc7-5fd38db58a2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chat_client.h">
@@ -78,6 +81,9 @@
     <ClInclude Include="CChatRoom.h">
       <Filter>群窗口</Filter>
     </ClInclude>
+    <ClInclude Include="CPrivateDlg.h">
+      <Filter>私聊窗口</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chat_client.cpp">
@@ -109,6 +115,9 @@
     </ClCompile>
     <ClCompile Include="CChatRoom.cpp">
       <Filter>群窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CPrivateDlg.cpp">
+      <Filter>私聊窗口</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

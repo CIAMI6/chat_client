@@ -51,10 +51,19 @@ struct RegMeg
 typedef struct PRIVATEMESSAGE
 {
 	//目标ID或用户名
-	CHAR szDesId[40];
+	char szDesId[20];
 	//私聊正文
-	CHAR szContent[40];
+	char szContent[1024];
 }PmMsg;
+
+struct UserInfo
+{
+	int NameLen;
+	char Name[20];
+};
+
+
+
 
 typedef struct MESSAGECONTENT
 {
